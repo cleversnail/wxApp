@@ -1,1 +1,59 @@
 /* pages/hongB/hongbao.wxss */
+#head{
+    width: 750rpx;
+    height: 140rpx;
+    position: relative;
+}
+#head .head-img{
+    width:100% ;
+    height:140rpx;
+    position: relative;
+    z-index: 2;
+}
+/*头部图片  */
+#head .head-1{
+    width: 130rpx;
+    height: 130rpx;
+    border: 0 solid;
+    border-radius: 50%;
+    overflow: hidden;
+    top:66rpx;
+    left: 50%;
+    transform: translate(-50%);
+    position: absolute;
+    z-index: 3;
+}
+/* 头像 */
+#head .head-img1{
+    width: 100%;
+    height: 100%;
+ 
+    
+
+}
+#middle{
+    width:750rpx;
+    top:40rpx;
+    background-color: #f5fafe;
+    /* position: absolute; */
+    padding-top: 76rpx;
+}
+/* 中部盒子 */
+#middle .middle-item1{
+    width: 750rpx;
+}
+/* 中部的第一个盒子  */
+#middle .middle-item1__name{
+    display: block;
+    font-size: 36rpx;
+    line-height: 17rpx;
+    text-align:center;
+    padding: 18rpx;
+}
+#middle .middle-item2__ps{
+    display: block ;
+    font-size: 40rpx;
+    line-height: 27rpx;
+    text-align:center;
+    padding-top: 22rpx;
+}

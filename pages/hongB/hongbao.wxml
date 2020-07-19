@@ -1,2 +1,25 @@
-<!--pages/hongB/hongbao.wxml-->
-<text>pages/hongB/hongbao.wxml</text>
+<!--pages/hongB/hongbao.wxml--> 
+<view id="head">   <!-- 建一个顶部盒子来放顶部图片 -->
+    <image class="head-img" src="../../images/red-envelope.png"  />
+      <view class="head-1"><!-- 建一个副盒子装头像 -->
+          <image class="head-img1" src="../../images/1.jpg"/> 
+      </view>
+        
+</view>
+<view id="middle">
+     <view class="middle-item1">
+        <text class="middle-item1__name">Ailsa</text>  <!--红包姓名 -->
+     </view>
+      
+<view class="middle-item2">
+    <text class="middle-item2__ps">恭喜发财，大吉大利</text><!-- 红包备注 -->
+</view>
+
+<view class="middle-item3"></view>
+<view></view>
+<view></view>
+<view></view>
+  
+</view>
+  
+  
